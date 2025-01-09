@@ -1,0 +1,17 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "install node modules use google less secuere for third party username password for nodemailer watch the youtube video carefully Happy Hacking! Follow me :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9"
+  },
+  "keywords": []
+}

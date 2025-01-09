@@ -10,15 +10,14 @@ const server = http.createServer((request, response) => {
         auth: {
             user:process.env.EMAIL,
             pass:process.env.PASSWORD
-
         }
     });
 
     const receiver = {
         from : process.env.EMAIL,
-        to : "mayurisharma2003@gmail.com",
+        to : "kudalerudraraj@gmail.com",
         subject : "Node Js Mail Testing!",
-        text : "Hello this is a text mail!"
+        text : "Hello this is a task from the numerty technologies"
     };
 
     auth.sendMail(receiver, (error, emailResponse) => {
